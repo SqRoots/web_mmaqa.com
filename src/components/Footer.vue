@@ -16,44 +16,19 @@
         class="justify-center brown--text"
         style="background-color:#ceccc4;"
       >
-        <v-tooltip top>
-          <template v-slot:activator="{ on }">
-            <v-btn
-              slot="activator"
-              class="mx-3 brown--text"
-              icon
-              target="_blank"
-              v-on="on"
-            >
-              <v-icon size="16px">
-                far fa-envelope
-              </v-icon>
-            </v-btn>
-          </template>
-          <span>lixuan.xyz@gmail.com</span>
-        </v-tooltip>
+      <v-icon size="16px">
+        far fa-envelope
+      </v-icon>
+      <span style="padding-left:6px;">lixuan.xyz@gmail.com</span>
 
 
-        <span>&nbsp;</span>
+        <span style="padding: 0 20px 0 20px;">|</span>
 
 
-        <v-tooltip top>
-          <template v-slot:activator="{ on }">
-            <v-btn
-              slot="activator"
-              class="mx-3 brown--text"
-              icon
-              href="https://beian.miit.gov.cn/"
-              target="_blank"
-              v-on="on"
-            >
-              <v-icon size="16px">
-                fas fa-shield-alt
-              </v-icon>
-            </v-btn>
-          </template>
-          <span>冀ICP备11017610号-2</span>
-        </v-tooltip>
+        <v-icon size="16px">
+          fas fa-shield-alt
+        </v-icon>
+        <span style="padding-left:6px;"><a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备11017610号-2</a></span>
 
       </v-card-actions>
     </v-card>
